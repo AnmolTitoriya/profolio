@@ -19,7 +19,7 @@ export const profile = {
 export const experience = [
   {
     company: 'Acelucid Technologies Private Limited',
-    title: 'Software Engineer',
+    title: 'SDE II (Software Development Engineer 2)',
     period: 'Nov 2021 – Present',
     points: [
       'Delivered projects across logistics, e-commerce, healthcare, and edtech domains',
