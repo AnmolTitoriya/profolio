@@ -2,7 +2,7 @@ import Reveal from './Reveal'
 
 export default function Skills({ skillGroups }) {
   return (
-    <section id="skills" className="mx-auto max-w-5xl px-6 py-20">
+    <section id="skills" className="mx-auto max-w-5xl px-6 py-10">
       <Reveal>
         <h2 className="text-sm font-semibold uppercase tracking-widest text-rust">Skills</h2>
       </Reveal>

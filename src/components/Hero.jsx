@@ -1,6 +1,6 @@
 export default function Hero({ profile }) {
   return (
-    <section id="home" className="mx-auto flex max-w-5xl flex-col items-start gap-6 px-6 pb-24 pt-20">
+    <section id="home" className="mx-auto flex max-w-5xl flex-col items-start gap-6 px-6 pb-12 pt-16">
       <p className="rounded-full border border-neutral-900/10 bg-neutral-900/5 px-4 py-1 text-sm text-rust">
         {profile.title}
       </p>

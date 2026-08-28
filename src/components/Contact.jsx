@@ -3,7 +3,7 @@ import Reveal from './Reveal'
 
 export default function Contact({ profile }) {
   return (
-    <section id="contact" className="mx-auto max-w-5xl px-6 py-24">
+    <section id="contact" className="mx-auto max-w-5xl px-6 py-12">
       <Reveal>
         <h2 className="text-sm font-semibold uppercase tracking-widest text-rust">Contact</h2>
         <h3 className="mt-4 text-3xl font-bold text-neutral-900">Let's work together.</h3>
