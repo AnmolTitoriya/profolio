@@ -4,7 +4,7 @@ export const profile = {
   tagline:
     'Building scalable, cloud-native applications across E-Commerce, Healthcare, Ed-Tech, and Logistics domains.',
   about:
-    "7+ years of experience as a software engineer specializing in .NET Core, C#, and cloud integration (Azure & AWS), with 4 years of full-stack experience in Angular and React. Comfortable across the stack — backend API design, database (SQL & NoSQL), cloud infrastructure, and frontend delivery — with hands-on work in SaaS multi-tenant architectures, identity/auth systems, and Python-based automation (including Amazon Connect/IVR and Terraform-provisioned serverless infra).",
+    "7+ years of experience as a software engineer specializing in .NET Core, C#, and cloud integration (Azure & AWS), with 4 years of full-stack experience in Angular and React. Comfortable across the stack, including backend API design, database (SQL & NoSQL), cloud infrastructure, and frontend delivery, with hands-on work in SaaS multi-tenant architectures, identity/auth systems, and Python-based automation (including Amazon Connect/IVR and Terraform-provisioned serverless infra).",
   location: 'India',
   email: 'anmol.titoriya0147@gmail.com',
   phone: '+91 8449855966',
@@ -80,7 +80,7 @@ export const skillGroups = [
   },
 ]
 
-// Placeholder highlights — replace with real project details you're free to share.
+// Placeholder highlights: replace with real project details you're free to share.
 export const projects = [
   {
     title: 'SaaS Multi-Tenant Platform',
