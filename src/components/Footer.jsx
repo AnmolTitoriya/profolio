@@ -16,7 +16,7 @@ export default function Footer({ profile }) {
           Email
         </a>
       </div>
-      &copy; {new Date().getFullYear()} {profile.name}. Built with React &amp; Tailwind.
+      &copy; {new Date().getFullYear()} {profile.name}.
     </footer>
   )
 }
