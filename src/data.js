@@ -43,7 +43,7 @@ export const experience = [
   },
   {
     company: 'Eureka Outsourcing Solutions Private Limited',
-    title: 'API Developer',
+    title: 'Software Engineer',
     period: 'Apr 2021 – Oct 2021',
     points: ['Built APIs for a brokerage firm client'],
     tech: ['.NET', 'Entity Framework', 'LINQ'],
