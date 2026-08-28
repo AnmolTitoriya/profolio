@@ -2,7 +2,7 @@ export const profile = {
   name: 'Anmol Titoriya',
   title: 'Software Engineer | .NET / C# | Azure & AWS Cloud | Angular & React',
   tagline:
-    "I build backend systems and full-stack apps for clients in E-Commerce, Healthcare, Ed-Tech, and Logistics.",
+    "I build backend systems and full-stack apps across E-Commerce, Healthcare, Ed-Tech, and Logistics.",
   about:
     "I've spent the last 7+ years building backend systems in .NET Core and C#, integrating with Azure and AWS, and the last 4 of those working across the full stack with Angular and React too. I like owning problems end to end: API design, database schema decisions (SQL and NoSQL), the cloud infrastructure underneath, and the UI that actually ships to users. Recent work includes multi-tenant SaaS platforms, identity and auth systems, and Python automation, including IVR flows on Amazon Connect and serverless infra provisioned with Terraform.",
   location: 'India',
