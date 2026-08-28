@@ -20,20 +20,24 @@ export default function Projects({ projects }) {
                   </span>
                 ))}
               </div>
-              {(project.repoUrl || project.liveUrl) && (
-                <div className="mt-auto flex gap-4 pt-2 text-sm">
-                  {project.repoUrl && (
-                    <a href={project.repoUrl} target="_blank" rel="noreferrer" className="text-neutral-700 hover:text-rust">
-                      Code &rarr;
-                    </a>
-                  )}
-                  {project.liveUrl && (
-                    <a href={project.liveUrl} target="_blank" rel="noreferrer" className="text-neutral-700 hover:text-rust">
-                      Live &rarr;
-                    </a>
-                  )}
-                </div>
-              )}
+              <div className="mt-auto pt-2 text-sm">
+                {project.repoUrl || project.liveUrl ? (
+                  <div className="flex gap-4">
+                    {project.repoUrl && (
+                      <a href={project.repoUrl} target="_blank" rel="noreferrer" className="text-neutral-700 hover:text-rust">
+                        Code &rarr;
+                      </a>
+                    )}
+                    {project.liveUrl && (
+                      <a href={project.liveUrl} target="_blank" rel="noreferrer" className="text-neutral-700 hover:text-rust">
+                        Live &rarr;
+                      </a>
+                    )}
+                  </div>
+                ) : (
+                  project.note && <p className="italic text-neutral-500">{project.note}</p>
+                )}
+              </div>
             </article>
           </Reveal>
         ))}
