@@ -8,8 +8,8 @@ export const profile = {
   location: 'India',
   email: 'anmol.titoriya0147@gmail.com',
   phone: '+91 8449855966',
-  // Place your resume PDF at public/resume.pdf for this link to work.
-  resumeUrl: '/resume.pdf',
+  // File name of the resume PDF placed in public/.
+  resumeUrl: 'resume.pdf',
   social: {
     github: 'https://github.com/AnmolTitoriya',
     linkedin: 'https://www.linkedin.com/in/anmol-t-258828a9',

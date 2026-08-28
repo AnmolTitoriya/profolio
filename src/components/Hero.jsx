@@ -16,7 +16,7 @@ export default function Hero({ profile }) {
           Contact Me
         </a>
         <a
-          href={profile.resumeUrl}
+          href={`${import.meta.env.BASE_URL}${profile.resumeUrl}`}
           download
           className="rounded-lg border border-neutral-900/20 px-5 py-2.5 font-medium text-neutral-900 transition hover:bg-neutral-900/5"
         >
