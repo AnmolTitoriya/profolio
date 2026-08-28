@@ -10,7 +10,7 @@ import { experience, profile, projects, skillGroups } from './data'
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-950 text-white">
+    <div className="min-h-screen bg-cream text-neutral-900">
       <Navbar name={profile.name} />
       <main>
         <Hero profile={profile} />

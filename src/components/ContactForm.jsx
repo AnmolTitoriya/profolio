@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 const inputClasses =
-  'rounded-lg border border-white/10 bg-white/5 px-4 py-2.5 text-white placeholder:text-slate-500 outline-none transition focus:border-cyan-400'
+  'rounded-lg border border-neutral-900/10 bg-neutral-900/5 px-4 py-2.5 text-neutral-900 placeholder:text-neutral-500 outline-none transition focus:border-rust'
 
 export default function ContactForm({ email }) {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
@@ -48,7 +48,7 @@ export default function ContactForm({ email }) {
       />
       <button
         type="submit"
-        className="rounded-lg bg-cyan-400 px-5 py-2.5 font-medium text-slate-950 transition hover:bg-cyan-300"
+        className="rounded-lg bg-rust px-5 py-2.5 font-medium text-cream transition hover:bg-rust/90"
       >
         Send Message
       </button>

@@ -8,15 +8,15 @@ const links = [
 
 export default function Navbar({ name }) {
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-neutral-900/10 bg-cream/80 backdrop-blur">
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-        <a href="#home" className="text-lg font-semibold text-white">
+        <a href="#home" className="text-lg font-semibold text-neutral-900">
           {name}
         </a>
-        <ul className="flex gap-6 text-sm text-slate-300">
+        <ul className="flex gap-6 text-sm text-neutral-700">
           {links.map((link) => (
             <li key={link.href}>
-              <a href={link.href} className="transition hover:text-white">
+              <a href={link.href} className="transition hover:text-rust">
                 {link.label}
               </a>
             </li>

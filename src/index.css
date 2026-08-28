@@ -2,6 +2,8 @@
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-cream: #f5f5dc;
+  --color-rust: #8d2416;
 }
 
 @layer base {

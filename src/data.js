@@ -2,7 +2,7 @@ export const profile = {
   name: 'Anmol Titoriya',
   title: 'Software Engineer | .NET / C# | Azure & AWS Cloud | Angular & React',
   tagline:
-    'Building scalable, cloud-native applications across logistics, e-commerce, healthcare, and edtech domains.',
+    'Building scalable, cloud-native applications across E-Commerce, Healthcare, Ed-Tech, and Logistics domains.',
   about:
     "7+ years of experience as a software engineer specializing in .NET Core, C#, and cloud integration (Azure & AWS), with 4 years of full-stack experience in Angular and React. Comfortable across the stack — backend API design, database (SQL & NoSQL), cloud infrastructure, and frontend delivery — with hands-on work in SaaS multi-tenant architectures, identity/auth systems, and Python-based automation (including Amazon Connect/IVR and Terraform-provisioned serverless infra).",
   location: 'India',
