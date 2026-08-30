@@ -108,4 +108,12 @@ export const projects = [
     repoUrl: '',
     liveUrl: '',
   },
+  {
+    title: 'QRinator',
+    description:
+      'A kraft-paper styled QR code tag generator with customizable patterns, corner marks, colors, and center marks, exportable as PNG, SVG, or image.',
+    tags: ['JavaScript', 'HTML', 'CSS'],
+    repoUrl: 'https://github.com/AnmolTitoriya/QRinator',
+    liveUrl: 'https://anmoltitoriya.github.io/QRinator/',
+  },
 ]
