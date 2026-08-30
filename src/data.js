@@ -116,12 +116,4 @@ export const projects = [
     repoUrl: 'https://github.com/AnmolTitoriya/QRinator',
     liveUrl: 'https://anmoltitoriya.github.io/QRinator/',
   },
-  {
-    title: 'Book Dragons Den — Bookmark Template',
-    description:
-      'A printable, customizable bookmark template with editable text fields, colors, and layout, exportable as an image.',
-    tags: ['JavaScript', 'HTML', 'CSS'],
-    repoUrl: 'https://github.com/AnmolTitoriya/BDD_Bookmark',
-    liveUrl: 'https://anmoltitoriya.github.io/BDD_Bookmark/',
-  },
 ]
