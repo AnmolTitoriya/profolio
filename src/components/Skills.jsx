@@ -10,8 +10,9 @@ export default function Skills({ skillGroups }) {
       <div className="mt-8 grid gap-6 sm:grid-cols-2">
         {skillGroups.map((group, i) => (
           <Reveal key={group.category} delay={i * 60}>
-            <h3 className="mb-3 text-sm font-semibold text-neutral-900">{group.category}</h3>
-            <div className="flex flex-wrap gap-2">
+            <h3 className="text-sm font-semibold text-neutral-900">{group.category}</h3>
+            <p className="mt-1 text-sm text-neutral-500">{group.summary}</p>
+            <div className="mt-3 flex flex-wrap gap-2">
               {group.items.map((skill) => (
                 <span
                   key={skill}
