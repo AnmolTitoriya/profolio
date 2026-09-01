@@ -12,7 +12,7 @@ export const profile = {
   resumeUrl: 'resume.pdf',
   social: {
     github: 'https://github.com/AnmolTitoriya',
-    linkedin: 'https://www.linkedin.com/in/anmol-t-258828a9',
+    linkedin: 'https://www.linkedin.com/in/anmoltitoriya/',
   },
 }
 
