@@ -51,8 +51,6 @@ export default function ContactForm({ email }) {
         className="rounded-lg bg-rust px-5 py-2.5 font-medium text-cream transition hover:bg-rust/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-rust"
       >
         Send Message
-      </button>
-      <p className="text-xs text-neutral-500">Opens your email client with this pre-filled.</p>
-    </form>
+      </button>    </form>
   )
 }
